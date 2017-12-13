@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+
+def main():
+    good = ["chicken", "turkey", "eggs", "abalone", "catfish", "perch", "macadamia nuts", "walnuts", "black currant oil", "borage oil", "coconut oil", "evening primrose oil", "fish oil", "flaxseed oil", "ghee", "hemp oil", "olive oil", "arugula", "beet greens", "cilantro", "collard greens", "dandelion greens", "endive", "kale", "lettuce", "mustard greens", "radicchio", "spinach", "swiss chard", "turnip greens", "watercress", "asparagus", "avocado", "bok choy", "broccoli", "brussels sprout", "cabbage", "garlic", "jerusalem artichoke", "kohirabi", "leek", "mushrooms", "okra", "olive oil", "onions", "bell peppers", "hot peppers", "radish", "shallot", "tomatoes", "anise", "bay leaf", "cardamom", "cayenne", "cloves", "chili powder", "cinnamon", "corianader", "dill weed", "garlic powder", "nutmeg", "parsley", "turmeric", "turnip", "herbal tea", "water", "agar", "irish moss", "kelp", "laver", "wakame"]
+
+##    print(good[31])
+    test = 'r'
+    while (test != 'q'):
+        print('enter q to quit')
+        test=input("Should Amy eat......")
+        test=test.lower()
+        if test in good:
+            print('yes Amy should eat '+test)
+        else:
+            print('No Amy should not eat that')
+#need to fix tabs and spaces issue, something in vimrc
+
+if __name__ == "__main__":
+    main()
+
